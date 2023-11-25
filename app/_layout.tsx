@@ -40,7 +40,10 @@ export default function RootLayout() {
     }
 
     return (
-        <ClerkProvider publishableKey={Constants.expoConfig?.extra?.CLERK_PUBLIC_KEY} tokenCache={tokenCache}>
+        <ClerkProvider
+            publishableKey={'pk_test_YXNzdXJlZC1pZ3VhbmEtNTQuY2xlcmsuYWNjb3VudHMuZGV2JA'}
+            tokenCache={tokenCache}
+        >
             <RootLayoutNav />
         </ClerkProvider>
     )
