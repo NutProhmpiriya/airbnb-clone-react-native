@@ -2,11 +2,11 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 const BookingPage = () => {
-  return (
-    <View>
-      <Text>BookingPage</Text>
-    </View>
-  )
+    return (
+        <View>
+            <Text>BookingPage</Text>
+        </View>
+    )
 }
 
 export default BookingPage

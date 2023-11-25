@@ -1,14 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { useWarmUpBrowser } from '../../hooks/useWarmUpBrowser'
+import { defaultStyles } from '../../constants/Styles'
 
 const LoginPage = () => {
-  return (
-    <View>
-      <Text>LoginPage</Text>
-    </View>
-  )
+    useWarmUpBrowser()
+    return (
+        <View style={defaultStyles.container}>
+            
+        </View>
+    )
 }
 
 export default LoginPage
-
-const styles = StyleSheet.create({})
